@@ -1,0 +1,15 @@
+AWS_REGION = "us-east-1"
+AWS_ACCESS_KEY = "AKIA5K666JMWDIMW44H2"
+AWS_SECRET_KEY = "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"
+RACK_ENV = "development"
+DOMAIN_NAME = "portrait.com"
+APP_TAGS = "api-portrait"
+APP_NAME = "api-portrait-App"
+VPC_ID = "vpc-ee2325320"
+EC2_SUBNETS = ["subnet-d1c325ab", "subnet-d1c325av"]
+ELB_SUBNETS = ["subnet-d1c325ab","subnet-d1c565ab"]
+INSTANCE_TYPE = "t3.micro"
+DISK_SIZE = "20"
+KEYPAIR = "api-portrait"
+SSH_ALLOWED="152.169.211.156/32"
+ALARM_SNS_TOPIC = "arn:aws:sns:us-west-2:123456788900:TOPIC"
