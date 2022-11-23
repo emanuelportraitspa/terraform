@@ -64,3 +64,30 @@ variable "DATABASE_USERNAME" {
 variable "PROJECT_NAME"{
 	type = string
 }
+variable "app_tags"{
+	type = string
+}
+variable "application_name"{
+	type = string
+}
+variable "vpc_id"{
+	type = string
+}
+variable "ec2_subnets"{
+	type = string
+}
+variable "elb_subnets"{
+	type = string
+}
+variable "instance_type"{
+	type = string
+}
+variable "disk_size"{
+	type = string
+}
+variable "keypair"{
+	type = string
+}
+variable "sshrestrict"{
+	type = string
+}
